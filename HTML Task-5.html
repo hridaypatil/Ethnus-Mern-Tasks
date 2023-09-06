@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HTML Task 5</title>
+    </head>
+    <body>
+        <h1  align="center"><font color="blue">Registration Form</h1></font>
+        <form action="https://www.ethnus.com">
+            <table border="1" align="center" width="600" height="25">
+                <tr>
+                    <th><label for "fn">First Name</label></th> <td><input type ="text" name="fn" size="70"></td>
+                </tr>
+
+                <tr>
+                    <th><label for "ln">Last Name</label></th> <td><input type ="text" name="ln" size="70"></td>
+                </tr>
+
+                <tr>
+                    <th><label for "mail">Email</label></th> <td><input type ="email" name="mail" size="70"></td>
+                </tr>
+
+                <tr>
+                    <th><label for "pass">Password</label></th> <td><input type ="password" name="pass" size="70"></td>
+                </tr>
+
+                <tr>
+                    <th><label for "repass">Re-enter Password</label></th> <td><input type ="password" name="repass" size="70"></td>
+                </tr>
+
+                <tr>
+                    <th rowspan="2"><label>Gender</label></th> <td><input type ="radio" name="gender" size="70"/>Male<br></td>
+                </tr>
+
+                <tr>
+                    <td><input type ="radio" name="gender" size="70"/>Female</td>
+                </tr>
+
+                <tr>
+                    <th><label for "phn">Phone Number</label></th> <td><input type ="tel" name="phn" size="70"></td>
+                </tr>
+
+                <tr>
+                    <th><label for "add">Address</label></th> <td><textarea cols="65" rows="5" name="add"></textarea></td>
+                </tr>
+
+                <tr>
+                    <th><label>State</label></th> <td><input type ="text" size="70"></td>
+                </tr>
+
+                <tr>
+                    <th><label>Country</label></th>
+                    <td><select>
+                        <option value="">Choose your country</option>
+                        <option value="India">India</option>
+                        <option value="Canada">Canada</option>
+                        <option value="China">China</option>
+                        <option value="Japan">Japan</option>
+                        <option value="Spain">Spain</option>
+                      </select></td>
+                </tr>
+
+                <tr>
+                    <th><label>Languages known</label></th>
+                    <td>
+                        <input type ="checkbox"/>English
+                        <input type ="checkbox"/>Kannada
+                        <input type ="checkbox"/>Hindi
+                        <input type ="checkbox"/>Telugu</td>
+                </tr>
+
+                <tr>
+                    <td colspan="2"><input type="checkbox" checked/> Hereby I declare all the given details are true </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2" align="right">Log in to <a href="https://ethnus.com/" target="_blank">Ethnus</a> website </td>
+                </tr>
+            </table><br><br>
+            <center><input type="submit" value="Register"/></center>
+        </form>
+    </body>
+</html>
